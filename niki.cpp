@@ -28,11 +28,16 @@ long long int calc(long long int n){
 	return ans;
 }
 int main(){
-	long long int n;
-	cin>>n;
-	long long int ans;
-	ans = calc(n);
+	int t;
+	scanf("%d",&t);
+	long long int n,ans;
+	while(t--){
+		
+		cin>>n;
+		cout<<calc(n)<<endl;
 
-	cout<<ans;
+		
+	}
+	return 0;
 
 }
